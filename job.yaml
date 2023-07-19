@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - image: myimage
-          name: hello
+          name: busybox
           env:
             - name: SECRET_TOKEN
               value: SOME_SECRET_NAME
