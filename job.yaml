@@ -6,8 +6,8 @@ spec:
   template:
     spec:
       containers:
-        - image: myimage
-          name: busybox
+        - image: busybox
+          name: hello
           env:
             - name: SECRET_TOKEN
               value: SOME_SECRET_NAME
