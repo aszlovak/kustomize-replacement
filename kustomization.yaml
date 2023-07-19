@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - resources.yaml
 - job.yaml
+- replacement-configmap.yaml
 
 replacements:
 - path: my-replacement.yaml
