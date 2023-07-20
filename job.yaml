@@ -9,5 +9,5 @@ spec:
         - image: busybox
           name: hello
           env:
-            - name: SECRET_TOKEN
+            - name: SECRET_TOKEN_1
               value: SOME_SECRET_NAME
