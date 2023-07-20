@@ -5,6 +5,7 @@ resources:
 - resources.yaml
 - job.yaml
 - variables-configmap.yaml
+- replacement-configmap.yaml
 
 replacements:
 - path: my-replacement.yaml
