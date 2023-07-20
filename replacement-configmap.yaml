@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: replacement-configmap
 data:
-  mountPath: "mount/path"
+  mountPath: "mount/path1"
